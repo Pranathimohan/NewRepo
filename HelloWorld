@@ -1,1 +1,3 @@
 I am about to write helloworld program.
+System.out.println("hi");
+
