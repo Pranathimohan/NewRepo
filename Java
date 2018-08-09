@@ -2,7 +2,9 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+int 1,j;
 		System.out.println("helloworld");
+System.out.println("i is me , j is me ");
 
 	}
 
