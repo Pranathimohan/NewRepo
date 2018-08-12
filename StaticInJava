@@ -3,16 +3,17 @@ package LearningStatic;
 public class StaticDemo {
 
 	public static void main(String[] args) {
-		Object i;
+		
 		Abc.show();
 		
 	}
 	static class Abc
 	{
-		int i=5;
+		
 		public static  void show() 
 		{
 		System.out.println("hi");}
 	}
 }
-
+When a method is declared as static then there is no need to create objects for that method we can
+directly call the method using class name.
