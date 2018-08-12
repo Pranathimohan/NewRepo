@@ -1,0 +1,18 @@
+package LearningStatic;
+
+public class StaticDemo {
+
+	public static void main(String[] args) {
+		Object i;
+		Abc.show();
+		
+	}
+	static class Abc
+	{
+		int i=5;
+		public static  void show() 
+		{
+		System.out.println("hi");}
+	}
+}
+
