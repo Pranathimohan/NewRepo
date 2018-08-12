@@ -25,3 +25,26 @@ public class Add {
 		return a+b;
 	}
 }
+package addingNumbers.java;
+
+import java.util.Scanner;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		int a,b;
+		
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("value a");
+	 a=sc.nextInt();
+	 System.out.println("b value");
+	 b=sc.nextInt();
+	 int x=a+b;
+	  
+		System.out.println(" addition oftwo numbers is x " +x);
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
